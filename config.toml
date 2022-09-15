@@ -14,7 +14,7 @@ theme = "hugo-devresume-theme"
     [params.profile]
         enable = true
         name = "Robin Brown"
-        tagline = "Senior Data Engineer"
+        tagline = "Senior Software Engineer"
         avatar = "dp.jpeg"
 
     [params.contact]
@@ -104,7 +104,7 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "Data engineer with broad interests across data engineering and operations. Strong technical, analytical and problem-solving skills developed throughout career, and experienced in a variety of general purpose and statistical programming languages and frameworks. Excellent mentoring and communication skills developed in both academic and professional settings."
+        text = "Senior Software engineer with broad interests across data engineering, DevOps and developer experience."
 
     [params.experience]
         enable = true
