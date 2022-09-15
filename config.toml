@@ -111,9 +111,9 @@ theme = "hugo-devresume-theme"
 
         [[params.experience.list]]
         title = "Senior Python Developer"
-        dates = "2020 - Present"
+        dates = "2020 - 2022"
         company = "Ricardo Energy & Environment"
-        details = "Senior developer in a brand-new and ambitious data science team, supporting a large enterprise of world-leading scientists, engineers, and academics with their most painful data problems, fostering a data science culture within the organisation. My primary responsibilities are:"
+        details = "Senior developer in a brand-new and ambitious data science team, supporting a large enterprise of world-leading scientists, engineers, and academics with their most painful data problems, fostering a data science culture within the organisation. My primary responsibilities were:"
         [[params.experience.list.items]]
         details = "Building from the ground up an opensource, Kubernetes-first, GitOps, on-premises, data development stack, setting the standards for other software teams in the organisation (GitLab CI/Minio/Postgres/Vault/Tilt/Argo CD/Microk8s/Ceph)"
         [[params.experience.list.items]]
