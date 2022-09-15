@@ -104,7 +104,7 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "Senior software engineer with broad interests across data engineering, devops and developer experience."
+        text = "Senior software engineer with broad interests in individual contributor roles across data engineering, devops and developer experience."
 
     [params.experience]
         enable = true
