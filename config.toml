@@ -110,6 +110,18 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2022 - Present"
+        company = "TrailStone Group"
+        details = "Senior engineer supporting teams delivering analytical and transactional Python workloads across the company's renewable energy trading portfolio in the North American marketplace. My primary responsiblities are:"
+        [[params.experience.list.items]]
+        details = "Creating simple to use, well-tested and dependable developer interfaces to reduce the complexity and fragility of external APIs crucial to trading operations."
+        [[params.experience.list.items]]
+        details = "Architecting and implementing solutions to enable the continued disassembly of a legacy monolith into more manageable, independently releasable microservices and libraries, increasing developer velocity and system reliability."
+        [[params.experience.list.items]]
+        details = "Developing novel solutions to long-standing pain points in the development process, leading the expansion of best practices and increasing developer satisfaction."
+
+        [[params.experience.list]]
         title = "Senior Python Developer"
         dates = "2020 - 2022"
         company = "Ricardo Energy & Environment"
