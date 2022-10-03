@@ -111,7 +111,7 @@ theme = "hugo-devresume-theme"
 
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "2022 - Present"
+        dates = "2022"
         company = "TrailStone Group"
         details = "Senior engineer supporting teams delivering analytical and transactional Python workloads across the company's renewable energy trading portfolio in the North American marketplace. My primary responsiblities are:"
         [[params.experience.list.items]]
