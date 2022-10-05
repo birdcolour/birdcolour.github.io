@@ -143,7 +143,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Reducing (by several orders of magnitude) the compute time and memory usage of associated ETL processes, enabling the expansion of this business area into four times as many markets, across twice as many platforms"
         [[params.experience.list.items]]
-        details = "Providing third-line support into the data itself, scoping and devloping reporting tools, and mentoring colleagues in best use of these"
+        details = "Providing third-line support into the data itself, scoping and developing reporting tools, and mentoring colleagues in best use of these"
 
         [[params.experience.list]]
         title = "Data Engineer"
