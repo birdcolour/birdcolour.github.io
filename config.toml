@@ -110,6 +110,18 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2022 - 2023"
+        company = "Dare International"
+        details = "Senior engineer developing software solutions for commodity and power trading operations. My primary responsiblities are:"
+        [[params.experience.list.items]]
+        details = "Delivering new features and solving deep-seated bugs in a complex distributed Django/Golang microservice ecosystem to support the firm's in-house bespoke ETRM solution."
+        [[params.experience.list.items]]
+        details = "Migrating microservice SCM and CI from Gitlab to Github, and migrating deployment infrastructure from AWS ECS to Kubernetes"
+        [[params.experience.list.items]]
+        details = "Providing leadership and mentoring on developer standards and best practices, testing, code review and interviewing"
+
+        [[params.experience.list]]
         title = "Software Engineer"
         dates = "2022"
         company = "TrailStone Group"
