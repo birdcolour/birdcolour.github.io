@@ -19,7 +19,7 @@ theme = "hugo-devresume-theme"
 
     [params.contact]
         enable = true
-        location = "London"
+        location = "Brighton"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
@@ -38,11 +38,11 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
-        details = "Redshift/PostgreSQL"
+        details = "PostgreSQL"
         [[params.skills.list.items]]
         details = "Docker/Kubernetes"
         [[params.skills.list.items]]
-        details = "AWS/Private cloud"
+        details = "AWS/GCP/Private cloud"
 
         [[params.skills.list]]
         title = "Professional"
@@ -89,6 +89,9 @@ theme = "hugo-devresume-theme"
         [[params.languages.list]]
         name = "French"
         level = "Intermediate"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Beginner"
 
     [params.interests]
         enable = true
@@ -104,16 +107,28 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "Senior software engineer with broad interests in individual contributor roles across data engineering, devops and developer experience, in organisations with a positive, world-improving mission."
+        text = "Senior software engineer with broad interests in individual contributor roles across backend and infrastructure, in organisations with a positive, world-improving mission."
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
+        title = "Founding Software Engineer"
+        dates = "2024 - Present"
+        company = "Sorted Technologies Ltd."
+        details = "First permanent engineering hire, developing software for AI vision systems and robotics to sort plastics in material recycling facilities. My primary responsiblities are:"
+        [[params.experience.list.items]]
+        details = "Writing low-latency real-time Python code from the ground up to control our bespoke low-cost robotics hardware, including hardware interfaces and motion planning/kinematics"
+        [[params.experience.list.items]]
+        details = "Deploying and improving real-time Python computer vision system on NVIDIA Jetson hardware fleet in the field"
+        [[params.experience.list.items]]
+        details = "Maintaining backend datastore and customer data dashboard for detected and picked material analytics"
+
+        [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "2022 - 2023"
         company = "Dare International"
-        details = "Senior engineer developing software solutions for commodity and power trading operations. My primary responsiblities are:"
+        details = "Senior engineer developing software solutions for commodity and power trading operations. My primary responsiblities were:"
         [[params.experience.list.items]]
         details = "Delivering new features and solving deep-seated bugs in a complex distributed Django/Golang microservice ecosystem to support the firm's in-house bespoke ETRM solution."
         [[params.experience.list.items]]
